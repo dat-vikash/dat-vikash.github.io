@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Increasing File descriptor limits for linux upstart jobs
-date: 2015-04-07-8-58-00
+date: 2015-04-07 8:58:00
 disqus: y
 ___
 
