@@ -23,7 +23,7 @@ and also via the <i>/etc/security/limits.conf</i>
   root           hard    nofile          500000
 {% endhighlight %}
 
-but unfortunately we found that these limits were not being applied to our upstart job. After some serious googling, we found that Ubuntu [upstart](http://upstart.ubuntu.com/wiki/Stanzas#limit) provides a limit stanza. Using this we were edited our upstart configuration in <i>/etc/init/<job>.conf</i> 
+but unfortunately we found that these limits were not being applied to our upstart job. After some serious googling, we found that Ubuntu [upstart](http://upstart.ubuntu.com/wiki/Stanzas#limit) provides a limit stanza. Using this we were edited our upstart configuration in <i>/etc/init/job_name.conf</i> 
 
 {% highlight bash %}
   limit nofile 500000 500000
