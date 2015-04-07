@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simple Websockets example in Play Framework 2.2.x
+title: EMK Institute: A Software Powered Senate 
 date: 2015-03-31 14:17:31
 disqus: y
 ---
