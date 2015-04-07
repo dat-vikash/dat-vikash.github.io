@@ -3,7 +3,7 @@ layout: post
 title: Increasing File descriptor limits for linux upstart jobs
 date: 2015-04-07 8:58:00
 disqus: y
-___
+---
 
  I was recently working on a JVM based project using the Play! Framework. This project required a single but beefy on premise server deploy and needed to handle multiple concurrent websocket connections as well as regular HTTP GETs, PUTs, POSTs, and DELETEs. When we hit production, we quickly ran into the following error:
 {% highlight java %}
