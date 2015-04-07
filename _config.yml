@@ -1,0 +1,26 @@
+title:            Who.Dat.Ninja 
+description:      Thoughts and musings on life, tech, science, and software engineering.
+url:              http://datvikash.github.io
+signoff:          Vikash Dat
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://datvikash.github.io
+    external:     false
+  - name:         Email
+    url:          mailto:dat.vikash@gmail.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/datvikash
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
