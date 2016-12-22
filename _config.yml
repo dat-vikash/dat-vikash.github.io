@@ -1,6 +1,6 @@
 title:            Who.Dat.Ninja 
 description:      Thoughts and musings on life, tech, science, and software engineering.
-url:              http://datvikash.github.io
+url:              http://dat-vikash.github.io
 signoff:          Vikash Dat
 disqus_shortname: datvikash 
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
@@ -10,13 +10,13 @@ links:
   - name:         About
     url:          /about
   - name:         Blog
-    url:          http://datvikash.github.io
+    url:          http://dat-vikash.github.io
     external:     false
   - name:         Email
     url:          mailto:dat.vikash@gmail.com
     external:     true
   - name:         GitHub
-    url:          http://github.com/datvikash
+    url:          http://github.com/dat-vikash
     external:     true
 highlighter:      pygments
 permalink:        pretty
